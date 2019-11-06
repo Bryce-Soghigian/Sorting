@@ -25,7 +25,7 @@ def binary_search(arr, target):
       low = mid+1
     else: 
       return mid
-  return f"not found"
+  return -1
   
 
 

@@ -15,6 +15,8 @@
 #     }
 # }
 # insertion_sort(a)
+
+
 def selection_sort( arr ):
     # loop through n-1 elements
     for i in range(len(arr)):
@@ -58,7 +60,7 @@ def bubble_sort( arr ):
     isSorted = False
     while not isSorted:
         isSorted = True
-        for i in range(lastUnsorted):
+        for i in range(len(arr)):
             if arr[i]> arr[i+1]:
                 arr[i+1],arr[i] = arr[i],arr[i+1]
                 isSorted = False
